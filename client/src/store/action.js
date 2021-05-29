@@ -1,7 +1,7 @@
 import axios from 'axios'
 import Swal from 'sweetalert2'
 
-let BASEURL = 'http://localhost:4000/'
+let BASEURL = 'https://kyc-rizki.herokuapp.com/'
 
 export function setLoadingLogin(payload){
   return { type: 'LOADINGLOGIN/SETLOADINGLOGIN', payload}
