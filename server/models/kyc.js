@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     statusApproval: {
-      type: DataTypes.BOOLEAN,
+      type: DataTypes.STRING,
       validate: {
         notEmpty: true
       }
